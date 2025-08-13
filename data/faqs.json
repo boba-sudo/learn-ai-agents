@@ -1,0 +1,80 @@
+{
+  "faqs": [
+    {
+      "id": 1,
+      "question": "How do I get started with the Sierra Agent?",
+      "answer": "To get started, simply run 'python src/sierra_agent/cli.py' from the sierra-starter-agent directory. The agent will guide you through the setup process and ask for your name to personalize the experience.",
+      "category": "Getting Started",
+      "tags": ["setup", "installation", "beginner"]
+    },
+    {
+      "id": 2,
+      "question": "What programming languages does Sierra Agent support?",
+      "answer": "Currently, Sierra Agent is built with Python and supports Python-based projects. We're working on expanding support for JavaScript, TypeScript, and other popular languages in future updates.",
+      "category": "Features",
+      "tags": ["python", "languages", "support"]
+    },
+    {
+      "id": 3,
+      "question": "How do I update my Sierra Agent to the latest version?",
+      "answer": "To update, pull the latest changes from the main branch using 'git pull origin main'. If you've made local changes, make sure to commit or stash them first to avoid conflicts.",
+      "category": "Maintenance",
+      "tags": ["updates", "git", "version"]
+    },
+    {
+      "id": 4,
+      "question": "Can I customize the Sierra Agent's responses?",
+      "answer": "Yes! You can modify the agent's behavior by editing the source code in the src/sierra_agent/ directory. The agent is designed to be easily customizable for different use cases and learning objectives.",
+      "category": "Customization",
+      "tags": ["customization", "modification", "development"]
+    },
+    {
+      "id": 5,
+      "question": "What should I do if I encounter an error?",
+      "answer": "First, check the error message for specific details. Common issues include Python path problems or missing dependencies. If the problem persists, check the GitHub issues page or create a new issue with your error details and system information.",
+      "category": "Troubleshooting",
+      "tags": ["errors", "debugging", "help"]
+    },
+    {
+      "id": 6,
+      "question": "Is Sierra Agent suitable for beginners?",
+      "answer": "Absolutely! Sierra Agent is designed with beginners in mind. It provides clear, step-by-step guidance and explains concepts in simple terms. The interactive CLI makes learning engaging and hands-on.",
+      "category": "Learning",
+      "tags": ["beginners", "education", "interactive"]
+    },
+    {
+      "id": 7,
+      "question": "How can I contribute to the Sierra Agent project?",
+      "answer": "Contributions are welcome! You can submit pull requests, report bugs, suggest features, or improve documentation. Check the CONTRIBUTING.md file for guidelines and the project roadmap for current priorities.",
+      "category": "Community",
+      "tags": ["contributing", "open source", "collaboration"]
+    },
+    {
+      "id": 8,
+      "question": "What are the system requirements?",
+      "answer": "Sierra Agent requires Python 3.8 or higher, Git for version control, and a modern operating system (Windows 10+, macOS 10.14+, or Linux). At least 4GB RAM and 1GB free disk space is recommended.",
+      "category": "Requirements",
+      "tags": ["system", "requirements", "compatibility"]
+    },
+    {
+      "id": 9,
+      "question": "Can I use Sierra Agent offline?",
+      "answer": "Yes, the core functionality works offline. However, some features like checking for updates or accessing online resources require an internet connection. All local learning materials and the agent's core capabilities are available offline.",
+      "category": "Features",
+      "tags": ["offline", "internet", "accessibility"]
+    },
+    {
+      "id": 10,
+      "question": "How do I reset my Sierra Agent to default settings?",
+      "answer": "To reset to default settings, you can either restore from the original repository using 'git reset --hard origin/main' or manually revert any custom changes you've made. Be careful as this will remove all local modifications.",
+      "category": "Maintenance",
+      "tags": ["reset", "default", "restore"]
+    }
+  ],
+  "metadata": {
+    "total_faqs": 10,
+    "categories": ["Getting Started", "Features", "Maintenance", "Customization", "Troubleshooting", "Learning", "Community", "Requirements"],
+    "last_updated": "2024-08-12",
+    "version": "1.0.0"
+  }
+}
